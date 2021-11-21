@@ -1,38 +1,27 @@
 <script>
   $(document).ready(function() {
-    $("#target1").css("color", "red");
-    $("#target1").prop("disabled", true);
-    $("#target4").remove();
-    $("#target2").appendTo("#right-well");
-    $("#target5").clone().appendTo("#left-well");
-    $("#target1").parent().css("background-color", "red");
-    $("#right-well").children().css("color", "orange");
-    $("#left-well").children().css("color", "green");
-    $(".target:nth-child(2)").addClass("animated bounce");
-    $(".target:even").addClass("animated shake");
-
-  });
-</script>
-
-<!-- Only change code above this line -->
+ $("#target1").css("color", "red");
+      });
+  </script>
 
 <div class="container-fluid">
-  <h3 class="text-primary text-center">jQuery Playground</h3>
+   <h3 class="text-primary text-center">輔大烏克麗麗社</h3>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Sxh5kMhEQIjDDPSHsrElZVIqIufg0Go8-w&usqp=CAU">
+  <a href="https://www.facebook.com/search/top/?q=%E8%BC%94%E5%A4%A7%E7%83%8F%E5%85%8B%E9%BA%97%E9%BA%97">FB粉專連結</a>
   <div class="row">
     <div class="col-xs-6">
-      <h4>#left-well</h4>
-      <div class="well" id="left-well">
-        <button class="btn btn-default target" id="target1">#target1</button>
-        <button class="btn btn-default target" id="target2">#target2</button>
-        <button class="btn btn-default target" id="target3">#target3</button>
+      <h4>社團資訊</h4>
+      <div class="well" id="社團資訊">
+        <button class="btn btn-default target" id="target1">上課地點國璽樓168教室</button>
+        <button class="btn btn-default target" id="target2">社辦在全聯四樓</button>
+        <button class="btn btn-default target" id="target3">社課時間星期二和四晚上18:30~20:30</button>
       </div>
-    </div>
-    <div class="col-xs-6">
-      <h4>#right-well</h4>
-      <div class="well" id="right-well">
-        <button class="btn btn-default target" id="target4">#target4</button>
-        <button class="btn btn-default target" id="target5">#target5</button>
-        <button class="btn btn-default target" id="target6">#target6</button>
+       <div class="col-xs-6">
+      <h4>絕對要來的理由!!!</h4>
+      <div class="well" id="絕對要來的理由!!!">
+        <button class="btn btn-default target" id="target4">簡單上手，只要C、G、Am、F四和弦，就可以彈遍所有歌</button>
+        <button class="btn btn-default target" id="target5">可以裝逼，放進小提琴專用箱子就會讓路人誤以為你學的是小提琴XD</button>
+        <button class="btn btn-default target" id="target6">因為是小社團，所以可以1對1教學保證學會，而且我們的教學超厲害的啦!</button>
       </div>
     </div>
   </div>
